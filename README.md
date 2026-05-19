@@ -1,10 +1,10 @@
 # AI-Based AQI Forecasting & Predictive Monitoring System
 
-An AI-driven forecasting system developed to predict Air Quality Index (AQI) using machine learning and time-series forecasting models.
+An AI-driven forecasting system developed to predict Air Quality Index (AQI) using machine learning and time-series forecasting techniques.
 
 ## Overview
 
-This project focuses on analyzing environmental and weather-related data to forecast AQI levels and monitor pollution trends. The system combines machine learning techniques such as ARIMA and LSTM for predictive analysis.
+This project focuses on forecasting AQI levels and analyzing pollution trends using machine learning models and environmental data. The system combines ARIMA and LSTM-based forecasting approaches for predictive environmental monitoring.
 
 Developed as part of an innovation-focused academic group project.
 
@@ -13,10 +13,10 @@ Developed as part of an innovation-focused academic group project.
 ## Features
 
 - AQI forecasting using ARIMA and LSTM models
-- Real-time environmental data integration
 - Pollution trend analysis and visualization
 - Data preprocessing and model evaluation
-- Time-series forecasting techniques
+- Comparative analysis between predicted and actual AQI values
+- Hybrid forecasting approach for improved prediction accuracy
 
 ---
 
@@ -28,22 +28,35 @@ Developed as part of an innovation-focused academic group project.
 - Pandas
 - NumPy
 - Matplotlib
-- OpenWeather API
+- Jupyter Notebook
 
 ---
 
-## Project Structure
+## Repository Structure
 
-- `notebooks/` → Jupyter notebooks for experimentation and training
-- `models/` → Saved trained models and scalers
-- `reports/` → Project documentation
-- `screenshots/` → Output graphs and project visuals
+```text
+aqi-forecasting-system/
+│
+├── notebooks/
+│   ├── aqi_prediction_model.ipynb
+│   └── hybrid_forecasting_model.ipynb
+│
+├── screenshots/
+│   ├── comparison.png
+│   ├── hybrid-vs-actual1.png
+│   └── image.png
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
 ---
 
 ## My Contribution
 
 This project was developed as a group project. My primary contributions included:
+
 - Data preprocessing
 - Environmental data analysis
 - Model evaluation
@@ -53,7 +66,7 @@ This project was developed as a group project. My primary contributions included
 
 ## Future Improvements
 
-- Real-time AQI dashboard
-- Web deployment
-- Improved forecasting accuracy
+- Real-time AQI dashboard integration
 - Live API-based monitoring
+- Improved forecasting accuracy
+- Web deployment for public accessibility
