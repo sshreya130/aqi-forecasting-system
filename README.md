@@ -32,27 +32,6 @@ Developed as part of an innovation-focused academic group project.
 
 ---
 
-## Repository Structure
-
-```text
-aqi-forecasting-system/
-│
-├── notebooks/
-│   ├── aqi_prediction_model.ipynb
-│   └── hybrid_forecasting_model.ipynb
-│
-├── screenshots/
-│   ├── comparison.png
-│   ├── hybrid-vs-actual1.png
-│   └── image.png
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
----
-
 ## My Contribution
 
 This project was developed as a group project. My primary contributions included:
